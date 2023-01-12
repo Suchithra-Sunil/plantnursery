@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Chivo+Mono:wght@100&family=Lora&family=Montserrat:wght@200&family=Nanum+Myeongjo&family=Playfair+Display&family=Roboto+Slab:wght@500;700&family=Rubik+Gemstones&family=Scope+One&family=Sevillana&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(5, 61, 5);
+    color: white;
+    width: 100%;
+    height: 20px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+.wrapper{
+    background: url(./images/bn2.png)no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.nav-img{
+    width: 60px;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 80px;
+}
+.nav-menu{
+    float: right;
+    margin-right: 20px;
+}
+.nav-link{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.nav-font{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto Slab', serif;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:green;
+    border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Lora', serif;
+}
+.center h1{
+    color: whitesmoke;
+    font-size: 70px;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color:whitesmoke;
+    font-size: 40px;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.buttons{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(12, 75, 12);
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 43px;
+    margin-left: 359px;
+    margin-top: 4px;
+}
+.category{
+    width: 100%;
+    margin-top: 25px;
+}
+.cat-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+#effect1:hover {
+    border: none;
+    box-shadow: 3px 8px 10px #b4c59b;
+}
+#cat1{
+    margin-top:41px;
+    margin-left: 94px;
+}
+#cat2{
+    margin-top:-174px ;
+    margin-left:260px ;
+}
+#cat3{
+    margin-top:-174px ;
+    margin-left:427px ;
+}
+#cat4{
+    margin-top:-174px ;
+    margin-left:596px ;
+}
+#cat5{
+    margin-top:-174px ;
+    margin-left:761px ;
+}
+#cat6{
+    margin-top:-174px ;
+    margin-left:928px ;
+}
+#cat7{
+    margin-top:-174px ;
+    margin-left:1095px ;
+}
+#cat8{
+    margin-top:-174px ;
+    margin-left:1260px ;
+}
+.product{
+    width: 100%;
+    height: 400px;
+    
+}
+.pdt-img{
+    width: 250px;
+    height: 250px;
+}
+#pd1{
+    margin-top: 20px;
+    margin-left:82px ;
+}
+#pd2{
+    margin-top: -321px;
+    margin-left:361px ;
+}
+#pd3{
+    margin-top: -321px;
+    margin-left:637px ;
+}
+#pd4{
+    margin-top: -321px;
+    margin-left:912px ;
+}
+.pd5{
+    margin-top: -321px;
+    margin-left:1186px ;
+}
+.btn{
+    color: black;
+    background-color:rgb(172, 211, 95);
+    border:none;
+    width: 110px;
+    height: 30px;
+}
+.btn:hover{
+    background-color: rgb(19, 48, 19) ;
+    color: white;
+}
+span:hover{
+     color:rgb(236, 38, 38);
+}
+.ser-img{
+    width: 275px;
+    height: 275px;
+}
+.ser-btn{
+    width: 90px;
+    height: 25px;
+}
+#effect:hover {
+    border: none;
+    box-shadow: 5px 10px 18px #888888;
+}
+.abt-img{
+    width: 400px;
+    height: 400px;
+}
+.pser{
+    font-family:'Nanum Myeongjo', serif; 
+}
+.footer{
+    background-color: rgb(211, 209, 209);
+    padding: 70px 0;
+    width: 100%;
+    height: 60px;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+
+
